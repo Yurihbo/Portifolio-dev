@@ -1,0 +1,16 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules
