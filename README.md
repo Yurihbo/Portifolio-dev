@@ -1,5 +1,9 @@
 🌐 Portfólio - Yuri de Sousa Silva
 
+
+![Web Developer](./foto%20web%20dev.png)
+
+
 Bem-vindo(a) ao meu portfólio! 🎉  
 Aqui você encontra meus projetos, minhas habilidades e um pouco sobre minha jornada como **Desenvolvedor Web**.  
 
@@ -26,4 +30,5 @@ Busco sempre aprender novas ferramentas e evoluir minhas habilidades em **fronte
 ┣ 📜 index.html
 ┣ 📜 package.json
 ┣ 📜 vite.config.js
+
 
