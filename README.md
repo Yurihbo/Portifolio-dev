@@ -16,7 +16,7 @@ Busco sempre aprender novas ferramentas e evoluir minhas habilidades em **fronte
 
 🛠️ Tecnologias que utilizo
 - **Frontend:** React, Vite, TailwindCSS, Radix UI, Framer Motion  
-- **Backend:** (em aprendizado) Node.js  
+- **Backend:** Node.js, SQL, Firebase   
 - **Ferramentas:** Git, GitHub, ESLint, pnpm  
 
 
@@ -27,6 +27,7 @@ Busco sempre aprender novas ferramentas e evoluir minhas habilidades em **fronte
 ┣ 📜 index.html
 ┣ 📜 package.json
 ┣ 📜 vite.config.js
+
 
 
 
