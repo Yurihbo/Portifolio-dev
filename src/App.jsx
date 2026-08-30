@@ -22,6 +22,8 @@ import currencyImage from './assets/currency-converter-preview.png';
 import marketImage from './assets/market-list-preview.png';
 import expensesImage from './assets/expenses-manager-bg.png';
 import vortexImage from './assets/vortex-library-hero.jpg';
+import concordImage from './assets/concord-workspace.png';
+import rainhaImage from './assets/rainha-das-capas-dashboard.png';
 
 const App = () => {
   const [status, setStatus] = useState('');
@@ -198,6 +200,38 @@ const App = () => {
         'Dashboard com estatísticas de leitura',
         'Notas, favoritos e fragmentos marcantes',
         'Interface responsiva com suporte a PWA'
+      ]
+    },
+    {
+      id: 5,
+      title: 'Concord',
+      description: 'Plataforma de comunicação web e PWA para reunir comunidades, canais, mensagens diretas, chamadas de voz e compartilhamento de tela em uma única experiência.',
+      image: concordImage,
+      technologies: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'Firebase', 'PWA'],
+      liveUrl: 'https://yurihbo.github.io/concord/',
+      githubUrl: 'https://github.com/Yurihbo/concord',
+      features: [
+        'Comunidades e canais de texto organizados',
+        'Mensagens diretas e conexões entre usuários',
+        'Salas de voz com chamadas em tempo real',
+        'Compartilhamento e visualização de tela',
+        'Autenticação e instalação como PWA'
+      ]
+    },
+    {
+      id: 6,
+      title: 'Rainha das Capas — Gestão Comercial',
+      description: 'Sistema web de gestão comercial para centralizar revendedores, mercadorias, pagamentos, períodos semanais, relatórios e catálogo em uma plataforma responsiva.',
+      image: rainhaImage,
+      technologies: ['React', 'TypeScript', 'Vite', 'Firebase', 'PWA'],
+      liveUrl: 'https://yurihbo.github.io/Rainhadascapas/',
+      githubUrl: 'https://github.com/Yurihbo/Rainhadascapas',
+      features: [
+        'Dashboard com indicadores da operação',
+        'Gestão de revendedores e mercadorias',
+        'Controle de pagamentos e valores pendentes',
+        'Relatórios e histórico de semanas',
+        'Sincronização de dados em tempo real'
       ]
     }
   ];
