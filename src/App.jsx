@@ -18,8 +18,9 @@ import './App.css';
 // Importar imagens
 import heroImage from './assets/C095IH8eEQC4.jpg';
 import techBg from './assets/ERookbuDauSc.jpg';
-import projectImage1 from './assets/GiPHac3PD29g.jpg';
-import projectImage2 from './assets/TRmYVtDSHzq6.jpg';
+import currencyImage from './assets/currency-converter-preview.png';
+import marketImage from './assets/market-list-preview.png';
+import expensesImage from './assets/expenses-manager-bg.png';
 import vortexImage from './assets/vortex-library-hero.jpg';
 
 const App = () => {
@@ -129,7 +130,7 @@ const App = () => {
       id: 1,
       title: 'Conversor de Moedas',
       description: 'Aplicação web completa para conversão de moedas em tempo real com gráficos interativos, mapa mundial e notícias econômicas. Desenvolvida com JavaScript vanilla e APIs de cotação.',
-      image: projectImage1,
+      image: currencyImage,
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'API REST', 'Charts.js'],
       liveUrl: 'https://yurihbo.github.io/conversor-de-moedas/',
       githubUrl: 'https://github.com/yurihbo/conversor-de-moedas',
@@ -145,7 +146,7 @@ const App = () => {
       id: 2,
       title: 'Lista Interativa de Mercado',
       description: 'Lista de compras inteligente com interface moderna e funcionalidades avançadas. Permite adicionar, editar e remover itens com cálculo automático de totais.',
-      image: projectImage2,
+      image: marketImage,
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'LocalStorage', 'Responsive Design'],
       liveUrl: 'https://yurihbo.github.io/Lista-de-Mercado-/',
       githubUrl: 'https://github.com/yurihbo/Lista-de-Mercado-',
@@ -162,7 +163,7 @@ const App = () => {
       id: 3,
       title: 'Gestão de Gastos',
   description: 'Aplicação web progressiva (PWA) para controle financeiro pessoal, com gerenciamento de receitas e despesas, visualização de dados através de gráficos interativos e suporte offline com cache inteligente.',
-  image: projectImage1,
+  image: expensesImage,
   technologies: [
     'JavaScript (ES6+)',
     'HTML5',
