@@ -20,6 +20,7 @@ import heroImage from './assets/C095IH8eEQC4.jpg';
 import techBg from './assets/ERookbuDauSc.jpg';
 import projectImage1 from './assets/GiPHac3PD29g.jpg';
 import projectImage2 from './assets/TRmYVtDSHzq6.jpg';
+import vortexImage from './assets/vortex-library-hero.jpg';
 
 const App = () => {
   const [status, setStatus] = useState('');
@@ -158,8 +159,8 @@ const App = () => {
     },
 
     {
-  id: 3,
-  title: 'Gestão de Gastos',
+      id: 3,
+      title: 'Gestão de Gastos',
   description: 'Aplicação web progressiva (PWA) para controle financeiro pessoal, com gerenciamento de receitas e despesas, visualização de dados através de gráficos interativos e suporte offline com cache inteligente.',
   image: projectImage1,
   technologies: [
@@ -181,7 +182,23 @@ const App = () => {
     'Funcionamento offline com cache (PWA)',
     'Interface responsiva e otimizada para mobile'
   ]
-}
+},
+    {
+      id: 4,
+      title: 'VORTEX — Biblioteca Virtual',
+      description: 'Biblioteca digital pessoal inspirada em fantasia medieval, criada para organizar livros, acompanhar leituras e transformar cada página em parte de uma jornada.',
+      image: vortexImage,
+      technologies: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'PWA'],
+      liveUrl: 'https://yurihbo.github.io/VORTEX/',
+      githubUrl: 'https://github.com/Yurihbo/VORTEX',
+      features: [
+        'Catálogo de livros com busca e filtros',
+        'Acompanhamento de progresso por páginas',
+        'Dashboard com estatísticas de leitura',
+        'Notas, favoritos e fragmentos marcantes',
+        'Interface responsiva com suporte a PWA'
+      ]
+    }
   ];
 
   return (
