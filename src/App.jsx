@@ -24,6 +24,7 @@ import expensesImage from './assets/expenses-manager-bg.png';
 import vortexImage from './assets/vortex-library-hero.jpg';
 import concordImage from './assets/concord-workspace.png';
 import rainhaImage from './assets/rainha-das-capas-dashboard.png';
+import qualityAnalyzerImage from './assets/quality-analyzer-preview.png';
 
 const App = () => {
   const [status, setStatus] = useState('');
@@ -232,6 +233,22 @@ const App = () => {
         'Controle de pagamentos e valores pendentes',
         'Relatórios e histórico de semanas',
         'Sincronização de dados em tempo real'
+      ]
+    },
+    {
+      id: 7,
+      title: 'Quality Analyzer',
+      description: 'Aplicação web full-stack para análise técnica de sites públicos, reunindo indicadores de qualidade, tecnologias detectadas, problemas encontrados e recomendações em um painel intuitivo.',
+      image: qualityAnalyzerImage,
+      technologies: ['React', 'TypeScript', 'Vite', 'Node.js', 'Express', 'Tailwind CSS', 'Recharts'],
+      liveUrl: 'https://yurihbo.github.io/Quality-Analyzer/',
+      githubUrl: 'https://github.com/Yurihbo/Quality-Analyzer',
+      features: [
+        'Pontuação geral e por categoria de qualidade',
+        'Análises de performance, SEO, segurança e acessibilidade',
+        'Detecção de tecnologias e visualização da estrutura HTML',
+        'Problemas classificados por severidade com evidências',
+        'Geração de relatórios técnicos em PDF'
       ]
     }
   ];
